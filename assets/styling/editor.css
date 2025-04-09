@@ -1,0 +1,25 @@
+.editor-parent {
+    background-color: #1e222d;
+    padding: var(--spacingLarge);
+    border-radius: 10px;
+    width: 100%;
+    overflow-y: scroll;
+}
+
+.editor-content {
+    background-color: #1e222d;
+    border: none;
+    color: white;
+    width: 100%;
+    max-height: 100vh;
+    overflow-y: scroll;
+}
+
+.line-number {
+    text-align: right;
+    background-color: #1e222d;
+}
+
+.content-row {
+    min-width: 200px;
+}
