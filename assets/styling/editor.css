@@ -2,7 +2,7 @@
     background-color: #1e222d;
     padding: var(--spacingLarge);
     border-radius: 10px;
-    width: 100%;
+    width: 500px;
     overflow-y: scroll;
 }
 
@@ -10,16 +10,20 @@
     background-color: #1e222d;
     border: none;
     color: white;
-    width: 100%;
     max-height: 100vh;
-    overflow-y: scroll;
+    overflow: hidden;
+    word-wrap: break-word;
 }
 
 .line-number {
     text-align: right;
+    height: 16px;
     background-color: #1e222d;
 }
 
 .content-row {
     min-width: 200px;
+    word-wrap: break-word;
+    min-height: 16px;
+    line-height: 16px;
 }

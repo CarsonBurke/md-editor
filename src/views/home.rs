@@ -1,5 +1,5 @@
 use crate::components::{Echo, Editor, Hero, Sidebar};
-use dioxus::prelude::*;
+use dioxus::{html::textarea::autocomplete, prelude::*};
 
 /// The Home page component that will be rendered when the current route is `[Route::Home]`
 #[component]
@@ -13,6 +13,13 @@ pub fn Home() -> Element {
             Sidebar {}
             Editor {}
             Sidebar {}
+            div {
+                border: "solid 2px grey",
+                spellcheck: true,
+                contenteditable: true,
+                height: "400px",
+                width: "500px"
+            }
         }
     }
 }

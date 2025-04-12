@@ -1,7 +1,7 @@
 * {
     margin: unset;
     padding: unset;
-    box-sizing: border-box;
+    box-sizing: content-box;
     outline: unset;
 }
 
